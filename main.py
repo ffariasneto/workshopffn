@@ -29,12 +29,13 @@
 #     else:
 #         print(f"{i} é ímpar!")
 
+# while True:
+#     numb = int(input("Digite um número: "))
+#     if numb > 0:
+#         print(f"{numb} é positivo!")
+#     elif numb < 0:
+#         print(f"{numb} é negativo!")
+#     else:
+#         print("O número é zero")
 
-numb = int(input("Digite um número: "))
-if numb > 0:
-    print(f"{numb} é positivo!")
-elif numb < 0:
-    print(f"{numb} é negativo!")
-else:
-    print("O número é zero")
 
