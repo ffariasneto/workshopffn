@@ -59,10 +59,26 @@ def abrir_direita():
         sentar_cadeira()
 
 def entrar_esquerda():
-    print("Você entrou em um quarto com uma boneca estranha...")
+    print('''Você entra na sala e se depara com um quarto antigo. 
+          No chão, há uma boneca de porcelana com os olhos vidrados 
+          olhando diretamente para você. De repente, a porta se fecha 
+          e o quarto fica frio.
+          ''')
+    escolha = input("Deseja (1) Pegar a boneca ou (2) Ignorar a boneca? ")
+    if escolha == '1':
+        pegar_boneca()
+    elif escolha == '2':
+        ignorar_boneca()
 
 def seguir_frente():
-    print("Você seguiu até o fim do corredor...")
+    print('''Você continua a caminhar pelo corredor até o fim, 
+          onde a sombra que parecia se mover desaparece. 
+          Há uma porta antiga, com uma fechadura enferrujada.''')
+    escolha = input("Deseja (1) Tentar abrir a porta ou (2) Voltar pelo corredor? ")
+    if escolha == '1':
+        abrir_porta()
+    elif escolha == '2':
+        volta_corredor()
 
 def ler_livro():
     print("Você começou a ler o livro...")
